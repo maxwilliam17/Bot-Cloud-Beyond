@@ -1,0 +1,8 @@
+flask
+flask-cors
+gunicorn
+selenium
+firebase-admin
+cryptography
+pillow
+requests

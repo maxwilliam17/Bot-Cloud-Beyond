@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: beyond-bot
+    runtime: docker
+    plan: free
+    envVars:
+      - key: FLASK_SECRET
+        generateValue: true
+      - key: BOT_PASSWORD
+        value: "your-secure-password-here"
+      - key: FIREBASE_CREDENTIALS
+        value: ""
